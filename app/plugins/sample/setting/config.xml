@@ -1,0 +1,7 @@
+<Plugins>
+	<name>sample</name>
+	<description>これはサンプルプログラムです。</description>
+	<db>1</db>
+	<Author>製作者</Author>
+	<url>icz.co.jp</url>
+</Plugins>

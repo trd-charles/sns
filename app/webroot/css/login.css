@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+
+/* header
+----------------------------------------------*/
+#headerArea .entryBtn {
+	float:right;
+	width:130px;
+	margin-top:60px;
+}
+
+
+/* contents
+----------------------------------------------*/
+#contentsLogin {
+	background:url(../img/common/bg_contents_btm.jpg) no-repeat 730px bottom;
+	width:960px;
+	margin:0 auto;
+	padding:100px 0 150px;
+}
+.loginMid {background:url(../img/login/bg_login_mid.jpg) repeat-y; width:960px;}
+.loginTop {background:url(../img/login/bg_login_top.jpg) no-repeat top;}
+.loginBtm {background:url(../img/login/bg_login_btm.jpg) no-repeat bottom;}
+
+.loginLeft {
+	float:left;
+	width:360px;
+	margin:40px 0 40px 50px;
+	display:inline;
+}
+.loginLeft h2 {
+	margin-bottom:10px;
+}
+.loginRight {
+	float:right;
+	width:410px;
+	margin:40px 50px 40px 0;
+	display:inline;
+}
+.loginRight table {
+	width:410px;
+}
+.loginRight table th {
+	width:110px;
+	padding-bottom:15px;
+	color:#FFF;
+	text-align:left;
+}
+.loginRight table td {
+	padding-bottom:15px;
+}
+.loginRight table .inputs {
+	width:300px;
+	padding:3px;
+}
+.loginRight table a {
+	color:#FFF;
+}
+
+/* footer
+----------------------------------------------*/
+#footerLogin {
+	background:url(../img/common/bg_footer.jpg) #271D14 repeat-x bottom;
+	width:100%;
+}
+#footerLogin #copy {
+	border-top:none;
+	width:960px;
+	padding:20px 0;
+	color:#FFF;
+	font-size:0.8em;
+	text-align:center;
+}

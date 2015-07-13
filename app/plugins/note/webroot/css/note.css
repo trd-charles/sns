@@ -1,0 +1,150 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+/* search
+----------------------------------------------*/
+#searchArea {
+	background:url(../img/user/bg_search.jpg) no-repeat;
+	width:960px;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#searchArea p {
+	padding:15px 20px;
+}
+#searchArea p ._input {
+	width:300px;
+	margin-right:10px;
+}
+
+
+/* noteTable
+----------------------------------------------*/
+.noteTable {
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	width:710px;
+	margin:10px 0;
+	margin-top:-6px;
+	clear:left;
+}
+.noteTable th {
+	background-color:#3C6937;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
+	padding:3px 3px 3px 7px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+}
+.noteTable th.thTitle {width:300px;}
+.noteTable th.thDate {width:150px;}
+.noteTable th.thUser {width:100px;}
+.noteTable th.thStatus {width:80px;}
+.noteTable th.thPublic {width:80px;}
+
+.noteTable td {
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:10px 5px;
+	text-align:left;
+	vertical-align:middle;
+}
+.noteTable .odd td {
+	background-color:#FFF;
+}
+.noteTable .even td {
+	background-color:#F5F5F5;
+}
+
+#note_title {
+
+}
+#note_info {
+}
+
+.note_user {
+}
+
+.label_public {
+	color: #FFFFFF;
+	background-color: #2222FF;
+	padding: 1px 4px 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.label_status {
+	background-color: #EEEE00;
+	padding: 1px 4px 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.label_edit {
+	color: #FFFFFF;
+	background-color: #666666;
+	padding: 1px 4px 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+/* tab
+----------------------------------------------*/
+#tab {
+	margin-bottom : 5px;
+	width:690px;
+	height:30px;
+}
+#tab li {
+	float:left;
+	width:150px;
+	height:30px;
+	margin-right:2px;
+}
+#tab li a {
+	display:block;
+	width:150px;
+	height:30px;
+	color:#FFF;
+	text-decoration:none;
+	cursor:pointer;
+}
+#tab li a span {
+	display:block;
+	padding-top:8px;
+	font-weight:bold;
+	text-align:center;
+}
+#tab li a {
+	background:url(../img/user/bg_tab.gif) no-repeat;
+}
+#tab a:hover,
+#tab li.present a {
+	background:url(../img/user/bg_tab_on.gif) no-repeat;
+}
+#tab #file_up{
+	background:#fff;
+	margin-left:280px;
+	width:90px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#note_content {
+	width: 880px;
+	background: #FEFEFE;
+	overflow: visible;
+
+}

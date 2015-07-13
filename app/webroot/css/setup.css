@@ -1,0 +1,169 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+
+/* setupArea
+----------------------------------------------*/
+.setupArea {
+	padding:30px;
+}
+
+/* tab
+----------------------------------------------*/
+#tab {
+	border-bottom:5px solid #3C6937;
+	width:880px;
+	height:30px;
+}
+#tab li {
+	float:left;
+	width:140px;
+	height:30px;
+	margin-right:2px;
+}
+#tab li a {
+	display:block;
+	width:140px;
+	height:30px;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+}
+#tab li a span {
+	display:block;
+	padding-top:8px;
+	font-weight:bold;
+	text-align:center;
+}
+#tab li a {
+	background:url(../img/setup/bg_tab_short.gif) no-repeat;
+
+/* 	CSSで角丸を書く場合（IEは未対応） */
+/* 	background-color: #B4B4B4; */
+/* 	/*CSS3*/ */
+/* 	border-top-left-radius: 10px; */
+/* 	border-top-right-radius: 10px; */
+/* 	/*Safari,Google Chrome*/ */
+/* 	-webkit-border-top-left-radius: 10px; */
+/* 	-webkit-border-top-right-radius: 10px; */
+/* 	/*FireFox*/
+/* 	-moz-border-radius-topleft: 10px; */
+/* 	-moz-border-radius-topright: 10px; */
+}
+#tab a:hover,
+#tab li.present a {
+	/*background-color: #3C6937;*/
+	background:url(../img/setup/bg_tab_on_short.gif) no-repeat;
+}
+
+/* tab - contents
+----------------------------------------------*/
+#Index {
+	clear:both;
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	width:898px;
+}
+#tabBoxIndexArea {
+	padding:30px;
+}
+#tabBoxIndexArea h3 {
+	background-color:#3C6937;
+	padding:6px 10px 4px;
+	color:#FFF;
+	text-align:center;
+}
+#tabBoxIndexArea h3.userEntry {width:110px;}
+#tabBoxIndexArea h3.customField {width:160px;}
+#tabBoxIndexArea h3.entrySetup {width:90px;}
+
+.userEntryTable {
+	margin-bottom:5px;
+}
+.userEntryTable th {
+	width:130px;
+	padding:0 10px 15px 0;
+	text-align:left;
+	font-weight:bold;
+}
+.userEntryTable td {
+	padding-bottom:15px;
+	text-align:left;
+}
+.userEntryTable .inputArea input {
+	width:300px;
+	padding:2px;
+}
+.userEntryTable .radioArea input {
+	margin-right:5px;
+}
+.makeBtn {
+	margin-left:140px;
+}
+
+/* ************************* */
+.SetupTable {
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	width:880px;
+	margin:10px 0;
+	margin-top:-6px;
+	clear: left;
+}
+.SetupTable  th {
+	background-color:#3C6937;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
+	padding:5px 10px 3px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+}
+.SetupTable  td {
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:10px;
+	text-align:left;
+	vertical-align:middle;
+}
+.SetupTable .odd td {
+	background-color:#FFF;
+}
+.SetupTable .even td {
+	background-color:#F5F5F5;
+}
+.addbtn{
+	margin:20px 0;
+}
+.join_config{
+	vertical-align:middle;
+	/* width:30px; */
+	margin:0 5px 0 15px;
+}
+
+.SetupMailTable {
+
+}
+
+.SetupMailTable th.TitleMain {
+	text-align: left;
+	font-size: 120%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.SetupMailTable th.TitleSub {
+	text-align: left;
+	padding-left: 30px;
+	border-left:2px #3C6937 solid;
+}
+
+.SetupMailTable td.FrontSpace {
+	padding-left: 30px;
+}
+
+.SetupMailTable td.iMust {
+	width: 50px;
+}

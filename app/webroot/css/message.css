@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+
+/* messageArea
+----------------------------------------------*/
+.messageArea {
+	padding:40px;
+}
+.messageArea dl {
+	border-left:2px solid #72936F;
+	margin-bottom:20px;
+	padding-left:10px;
+}
+.messageArea dt {
+	display:inline;
+	font-weight:bold;
+}
+.messageArea dd {
+	display:inline;
+}
+.messageTxt {
+	border:1px solid #CCC;
+	margin-bottom:10px;
+	padding:20px;
+}
+.sendBtn {
+	text-align:right;
+}
+
+/* messageTable
+----------------------------------------------*/
+.messageTable {
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	width:690px;
+	margin:10px 0;
+	margin-top:-6px;
+	clear:left;
+}
+.messageTable th {
+	background-color:#3C6937;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
+	padding:5px 10px 3px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+}
+.messageTable th.thUser {width:100px;}
+.messageTable th.thRead {width:100px;}
+.messageTable th.thSubject {width:210px;}
+.messageTable th.thDate {width:60px;}
+.messageTable th.thDelete {width:50px;}
+
+.messageTable td {
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:10px;
+	text-align:left;
+	vertical-align:middle;
+}
+.messageTable .odd td {
+	background-color:#FFF;
+}
+.messageTable .even td {
+	background-color:#F5F5F5;
+}
+/* tab
+----------------------------------------------*/
+#tab {
+	border-bottom:5px solid #3C6937;
+	width:690px;
+	height:30px;
+}
+#tab li {
+	float:left;
+	width:150px;
+	height:30px;
+	margin-right:2px;
+}
+#tab li a {
+	display:block;
+	width:150px;
+	height:30px;
+	color:#FFF;
+	text-decoration:none;
+	cursor:pointer;
+}
+#tab li a span {
+	display:block;
+	padding-top:8px;
+	font-weight:bold;
+	text-align:center;
+}
+#tab li a {
+	background:url(../img/user/bg_tab.gif) no-repeat;
+}
+#tab a:hover,
+#tab li.present a {
+	background:url(../img/user/bg_tab_on.gif) no-repeat;
+}
+#tab #create_msg{
+	background:#fff;
+	margin-left:280px;
+	width:90px;
+}

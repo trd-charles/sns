@@ -1,0 +1,54 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+
+/* reset
+----------------------------------------------*/
+* {margin:0; padding:0;}
+body {background:#FFF; margin:0; padding:0; font:12px/1.25 arial, helvetica, sans-serif; color:#333; line-height:1.6;}
+* html body {font-size:80%;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;} 
+a {color:#09F; text-decoration:underline;}
+a:hover {color:#09F; text-decoration:none;}
+a:focus {outline:none;}
+li {list-style:none;}
+
+
+/* edit
+----------------------------------------------*/
+#wrap {
+	width:400px;
+	padding:15px;
+}
+table {
+	width:400px;
+	margin-bottom:20px;
+}
+table th {
+	width:100px;
+	padding-bottom:10px;
+	text-align:left;
+	font-weight:bold;
+	vertical-align:top;
+}
+table td {
+	width:300px;
+	padding-bottom:10px;
+	text-align:left;
+}
+table td input {
+	padding:2px;
+}
+table td select {
+	margin-bottom:10px;
+}
+table td.error input {
+	background-color:#FCC;
+}
+table td.w300 input {width:300px;}
+table td.w60 input {width:60px;}
+
+.saveBtn {
+	width:80px;
+	margin:0 auto;
+}

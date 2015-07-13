@@ -1,0 +1,156 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+/* profile
+----------------------------------------------*/
+#contentsLeft h3 {
+	background:url(../img/profile/bg_timeline.gif) no-repeat;
+	width:690px;
+	height:23px;
+	padding:7px 0 0 30px;
+	color:#FFF;
+	font-weight:bold;
+}
+#profileArea {
+	width:690px;
+	padding-bottom:10px;
+}
+#profileImg {
+	float:left;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	width:162px;
+	padding:20px 18px;
+	text-align:center;
+}
+.profileImgS {
+	border:1px solid #CCC;
+	margin-bottom:15px;
+}
+#profileTxt {
+	float:right;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	width:438px;
+	padding:20px;
+}
+#profileTxt table {
+	width:440px;
+}
+#profileTxt table th {
+	border-bottom:1px solid #CCC;
+	width:80px;
+	padding:8px 0 6px;
+	text-align:left;
+	vertical-align:top;
+}
+#profileTxt table td {
+	border-bottom:1px solid #CCC;
+	text-align:left;
+	padding:8px 0 6px;
+}
+
+.share {
+	background:url(../img/timeline/bg_share_mid.jpg) repeat-y;
+	width:690px;
+	margin-bottom:20px;
+}
+.shareTop {
+	background:url(../img/timeline/bg_share_top.jpg) no-repeat top;
+}
+.shareBtm {
+	background:url(../img/timeline/bg_share_btm.jpg) no-repeat bottom;
+}
+.shareBtm textarea {
+	width:650px;
+	height:45px;
+	margin:15px 0 10px 20px;
+}
+.btnFile {
+	float:left;
+	width:100px;
+	padding:0 0 10px 20px;
+}
+.btnShare {
+	float:right;
+	width:80px;
+	padding:0 20px 10px 0;
+}
+
+
+/* tab
+----------------------------------------------*/
+#tab {
+	border-bottom:5px solid #3C6937;
+	width:690px;
+	height:30px;
+}
+#tab li {
+	float:left;
+	width:130px;
+	height:30px;
+	margin-right:2px;
+}
+#tab li a {
+	display:block;
+	width:130px;
+	height:30px;
+	color:#FFF;
+	text-decoration:none;
+	cursor:pointer;
+}
+#tab li a span {
+	display:block;
+	width:90px;
+	padding:8px 0 0 30px;
+	font-weight:bold;
+	text-align:center;
+}
+#tab li a {
+	background:url(../img/timeline/bg_tab.gif) no-repeat;
+}
+#tab a:hover,
+#tab li.present a {
+	background:url(../img/timeline/bg_tab_on.gif) no-repeat;
+}
+
+#tab li span{
+	display:block;
+	width:130px;
+	padding:8px 0 0 30px;
+}
+#tab li span p{
+	display:block;
+	width:90px;
+	height:30px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+}
+
+/* contents
+----------------------------------------------*/
+#tabBoxIndex {
+	background:url(../img/timeline/bg_timeline_mid.gif) repeat-y;
+	width:690px;
+}
+#tabBoxIndexBtm {
+	background:url(../img/timeline/bg_timeline_btm.gif) no-repeat 0 bottom;
+}
+#tabBoxIndexArea {
+	padding:15px 20px;
+}
+
+/* sort
+----------------------------------------------*/
+.sort p {
+	float:left;
+}
+.sort p select {
+	margin:0 20px 0 5px;
+}
+.sort p.noComment {
+	float:right;
+	width:115px;
+}

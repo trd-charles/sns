@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+/* CSS Layout Style ---------------------------------------------------------- */
+
+
+/* search
+----------------------------------------------*/
+#searchArea {
+	background:url(../img/user/bg_search.jpg) no-repeat;
+	width:960px;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#searchArea p {
+	padding:15px 20px;
+}
+#searchArea p ._input {
+	width:300px;
+	margin-right:10px;
+}
+/* tab
+----------------------------------------------*/
+#tab {
+	border-bottom:5px solid #3C6937;
+	width:690px;
+	height:30px;
+}
+#tab li {
+	float:left;
+	width:150px;
+	height:30px;
+	margin-right:2px;
+}
+#tab li a {
+	display:block;
+	width:150px;
+	height:30px;
+	color:#FFF;
+	text-decoration:none;
+	cursor:pointer;
+}
+#tab li a span {
+	display:block;
+	padding-top:8px;
+	font-weight:bold;
+	text-align:center;
+}
+#tab li a {
+	background:url(../img/user/bg_tab.gif) no-repeat;
+}
+#tab a:hover,
+#tab li.present a {
+	background:url(../img/user/bg_tab_on.gif) no-repeat;
+}
+#tab #create_group{
+	background:#fff;
+	margin-left:280px;
+	width:90px;
+}
+
+/* tab - contents
+----------------------------------------------*/
+#tabBoxIndex {
+	clear:both;
+	width:690px;
+}
+#tabBoxIndex table {
+	background-color:#FFF;
+	width:690px;
+	margin-bottom:10px;
+}
+#tabBoxIndex th {
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	width:80px;
+	text-align:center;
+	vertical-align:middle;
+}
+#tabBoxIndex td {
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	vertical-align:middle;
+}
+#tabBoxIndex td.userTxt {
+	padding:15px 20px;
+}
+#tabBoxIndex td.userTxt strong {
+	font-weight:bold;
+}
+#tabBoxIndex td.follow {
+	width:130px;
+	text-align:center;
+}
+
+/* ************************* */
+#tabBoxIndexList {
+	clear:both;
+	width:687px;
+}
+
+
+#tabBoxIndexList table {
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	background-color:#FFF;
+	width:687px;
+	border-spacing: 0px;
+	margin-bottom:10px;
+}
+#tabBoxIndexList th {
+	background-color: #3C6937;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	padding: 5px 10px 3px;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+#tabBoxIndexList td {
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	vertical-align:middle;
+}
+
+#followbtn {
+	background:url(../img/user/bt_follow.gif) no-repeat;
+}
